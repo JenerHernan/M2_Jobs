@@ -24,4 +24,26 @@ public class Jefe extends Persona {
 			System.out.println("Saldo introducido no valido");
 		}
 	}
+	
+	public double neto() {
+		double neto = this.saldo * 0.68 ;
+		
+		return neto;
+	}
+	public double brutoanual() {
+		double bruto = this.saldo * 12;
+		
+		return bruto;
+	}
+
+	public double netoanual() {
+		double neto = (this.saldo * 12)*0.68;
+		
+		return neto;
+	}
+	
+	public double bonus(double anual) {
+		anual *= 1.10;
+		return anual;
+	}
 }

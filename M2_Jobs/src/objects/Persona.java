@@ -2,13 +2,13 @@ package objects;
 
 public abstract class Persona {
 
-	protected int saldo;
+	protected double saldo;
 
-	public int getSaldo() {
+	public double getSaldo() {
 		return saldo;
 	}
 	
-	public abstract void setSaldo(int saldo);
+	public abstract void setSaldo(double saldo);
 
 	
 	@Override

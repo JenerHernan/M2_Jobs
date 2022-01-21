@@ -1,13 +1,14 @@
 package main;
-import objects.Persona;
+import Enums.Tipos;
+import objects.Empleado;
 
 public class mainAPP {
 
 	public static void main(String[] args) {
 	
-		Persona p1 ;
+		Empleado p1 = new Empleado(1600,Tipos.Junior) ;
 		
-		System.out.println();
+		System.out.println(p1);
 		
 		
 	}
